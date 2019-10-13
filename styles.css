@@ -6,8 +6,12 @@ div {
     text-align: left;
 }
 
+#planetImage {
+    border-radius: 10px;
+}
+
 #faultyItems {
-    visibility: hidden;   
+    visibility: hidden;
 }
 
 #launchForm {
@@ -26,6 +30,10 @@ div {
     width: 50%;
     border: 3px solid black;
     padding: 10px;
+}
+
+#launchStatus {
+    color: black;
 }
 
 #missionTarget img {
